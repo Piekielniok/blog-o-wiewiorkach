@@ -1,8 +1,16 @@
 {
     "name": "Blog o wiewiórkach",
-    "theme_color": "#ffffff",
-    "background_color": "#fff",
-    "display": "browser",
+    "short_name": "Wiewióra",
+    "theme_color": "#87ceeb",
+    "background_color": "#87ceeb",
+    "display": "fullscreen",
+    "orientation": "portrait",
     "scope": "/",
-    "start_url": "/blog-o-wiewiorkach/"
+    "start_url": "/blog-o-wiewiorkach/",
+    "icons": [
+        {
+            "src": "./images/9951028_thanksgiving_mix_nuts_squirrel_holiday_icon.svg",
+            "type": "image/svg"
+        }
+    ]
   }

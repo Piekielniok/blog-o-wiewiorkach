@@ -10,6 +10,7 @@ nav {
     height: 5rem;
     justify-content: left;
     align-items: center;
+    padding-left: 1rem;
 }
 
 .nav-logo img {
@@ -34,22 +35,36 @@ nav {
 }
 
 .nav-btns div:hover {
-    background-color: cyan;
+    background-color: #00ffff;
     cursor: pointer;
 }
 
 .login-btn {
-    background-color: skyblue;
+    background-color: #87ceeb;
 }
 
 .hero {
     display: flex;
-    align-items: end;
-    padding-left: 2rem;
-    padding-bottom: 2rem;
+    align-items: center;
+    padding: 1.5rem;
     height: calc(100vh - 5rem);
+    color: white;
+}
+
+.hero-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
     background-image: url("https://www.telekarma.pl/userfiles/images/aktualnosci/wiewiorka-760x500px_3.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    color: white;
+    background-position: center;
+    filter: brightness(0.5);
+    z-index: -1;
+}
+
+.hero h1 {
+    font-size: max(3.5vw, 2rem);
 }

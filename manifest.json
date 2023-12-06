@@ -1,0 +1,8 @@
+{
+    "name": "Blog o wiewiórkach",
+    "theme_color": "#ffffff",
+    "background_color": "#fff",
+    "display": "browser",
+    "scope": "/",
+    "start_url": "/blog-o-wiewiorkach/"
+  }
